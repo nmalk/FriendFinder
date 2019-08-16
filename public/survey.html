@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>FriendFinder Survey</h1>
+      <hr>
+    </div>
+
+    <div class="row">
+
+      <div class="col-12">
+
+        <div class="card mb-4">
+          <div class="card-header">
+            <h3>About You!</h3>
+          </div>
+          <div class="card-body">
+            Name <input type="text" id="name" class="form-control">
+            Photo <input type="text" id="photo" class="form-control">
+            <br>
+          </div>
+          <div class="questions">
+            <h5>Question 1</h5>
+            <h6>You avoid dealing with difficult sitations involving confrontation.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+
+            <h5>Question 2</h5>
+            <h6>You like to be in the center of attention.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 3</h5>
+            <h6>You sympathize with others' feelings.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 4</h5>
+            <h6>You feel comfortable around people.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 5</h5>
+            <h6>You pay attention to details.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 6</h5>
+            <h6>You have a vivid imagination.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 7</h5>
+            <h6>You would rather spend time home then go out.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 8</h5>
+            <h6>It is easy for you to stay calm and focused, even under pressure.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 9</h5>
+            <h6>You would stay my friend even if other people criticized me.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+
+            <h5>Question 10</h5>
+            <h6>You make friends easily.</h6>
+            <div class="input">Strongly Disagree
+              <input type="radio" name="options" id="option1">
+              <input type="radio" name="options" id="option2">
+              <input type="radio" name="options" id="option3">
+              <input type="radio" name="options" id="option4">
+              <input type="radio" name="options" id="option5">
+              Strongly Agree
+            </div>
+            
+          </div>
+
+          <button class="btn btn-primary btn-lg submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <footer class="footer">
+    <div class="container">
+      <p><a href="/api/friends">API Friends Link</a> 
+    </div>
+  </footer>
+</body>
+
+</html>
